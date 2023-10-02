@@ -472,7 +472,7 @@ Router.post('/forgot-password', async (req, res) => {
             <h2>Password Reset</h2>
             <p>Hello ${user.name},</p>
             <p>Click the link below to reset your password:</p>
-            <p><a href="http://localhost:5173/reset-password/${resetToken}" style="text-decoration: none; background-color: #3498db; color: white; padding: 10px 20px; border-radius: 5px;">Reset Your Password</a></p>
+            <p><a href="https://glamconnect.vercel.app/reset-password/${resetToken}" style="text-decoration: none; background-color: #3498db; color: white; padding: 10px 20px; border-radius: 5px;">Reset Your Password</a></p>
             <p>If you didn't request a password reset, you can ignore this email.</p>
             <p>Best regards,<br>GlamConnect</p>
           </div>
